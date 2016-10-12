@@ -1,0 +1,33 @@
+body {
+  background-color: #c9b5ab;
+  font-family: 'PT Serif', serif;
+  line-height: 1.5rem;
+}
+
+header {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h1 {
+  color: #3f1622;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3f1622;
+}
+
+nav > ol > li {
+  list-style: none;
+  line-height: 1.5;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
