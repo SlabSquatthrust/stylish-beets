@@ -1,21 +1,24 @@
-body {
+html {
   background-color: #c9b5ab;
-  font-family: 'PT Serif', serif;
+}
+
+body {
+  font-family: "PT Serif", serif;
   line-height: 1.5rem;
 }
 
 header {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 1.5rem;
+  font-family: "PT Sans", sans-serif;
   font-weight: bold;
 }
 
 h1 {
   color: #3f1622;
+  line-height: 1.5;
 }
 
 h2 {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: #3f1622;
@@ -29,7 +32,12 @@ nav > ol > li {
 a {
   color: #8f2440;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.125em;
+}
+
+a:hover {
+  color: #222;
+  text-decoration: underline;
 }
 
 img {
@@ -37,7 +45,6 @@ img {
 }
 
 figcaption {
-  font-size: 1.125rem;
   font-style: italic;
   text-align: center;
 }
@@ -48,8 +55,10 @@ p:first-of-type {
 }
 
 blockquote {
+  font-size: 1.5rem;
   font-style: italic;
-  line-height: 1.5;
+  font-weight: bold;
+  line-height: 1.5em;
 }
 
 blockquote > p > cite {
