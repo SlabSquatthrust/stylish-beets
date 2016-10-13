@@ -55,3 +55,32 @@ blockquote {
 blockquote > p > cite {
   font-size: 0.8rem;
 }
+
+ol > li {
+  list-style-type: lower-greek;
+}
+
+dl > dt {
+  font-style: italic;
+}
+
+dd {
+  font-weight: bold;
+}
+
+dd > data {
+  font-weight: normal;
+}
+
+ul > li {
+  list-style: circle;
+  font-size: 0.8rem;
+}
+
+small {
+  font-size: 1rem;
+}
+
+small > a {
+  font-size: 1rem;
+}
